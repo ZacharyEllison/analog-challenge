@@ -1,0 +1,5 @@
+import os
+
+MESSAGE_COUNT = os.getenv('MESSAGE_COUNT', 1000)
+MESSAGE_FAILURE_RATE = os.getenv('MESSAGE_FAILURE_RATE', 0.1)
+MEAN_TIME = os.getenv('MEAN_TIME', 60)
